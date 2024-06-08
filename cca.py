@@ -9,7 +9,7 @@ import localization # other file
 label_image = measure.label(localization.binarycar_img)
 
 # make license plate parameter shapes
-plateDimensions = (0.04*label_image.shape[0], 0.2*label_image.shape[0], 0.08*label_image.shape[1], 0.2*label_image.shape[1])
+plateDimensions = (0.04*label_image.shape[0], 0.2*label_image.shape[0], 0.08*label_image.shape[1], 0.4*label_image.shape[1])
 minHeight, maxHeight, minWidth, maxWidth = plateDimensions
 plate_obj_coords = []
 plate_like_objs = []

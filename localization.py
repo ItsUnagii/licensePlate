@@ -3,7 +3,7 @@ from skimage.filters import threshold_otsu
 import matplotlib.pyplot as plt
 
 # License plate detection
-car_img = imread("car.jpg", as_gray=True)
+car_img = imread("car2.jpg", as_gray=True)
 print(car_img.shape)
 
 graycar_img = car_img * 255 # imread ranges between 1 and 0 I think
